@@ -1246,7 +1246,6 @@
   display: flex;
   justify-content: space-between;
   min-width: 50%;
-  position: relative;
 }
 .design-5 .form input,
 .design-5 .form button {
@@ -1264,9 +1263,8 @@
 .design-5 .form input::placeholder {
   color: var(--primary-color);
   position: absolute;
-  left: 70px;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 10px;
+  top: 8px;
 }
 .design-5 .form button {
   width: 100px;
